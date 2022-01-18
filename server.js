@@ -60,7 +60,9 @@ app.get('/info', async (req, res) => {
     res.send(JSON.stringify(resultado));
     
 });
-
+app.get('/mensaje', (req,res) => {
+  res.send('Hola Node.js desde Heroku!');
+})
 
 
 /* ------------------------------------------------------ */
